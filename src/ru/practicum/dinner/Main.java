@@ -10,7 +10,6 @@ public class Main {
     public static void main(String[] args) {
         dc = new DinnerConstructor();
         scanner = new Scanner(System.in);
-        dc.fillTypesDishesMyself();
 
         while (true) {
             printMenu();
